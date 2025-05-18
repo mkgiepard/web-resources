@@ -1,0 +1,33 @@
+body {
+    background-color: #1d1d1d;
+    color: lightgrey;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.orbitron-400 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+    width: 80%;
+    justify-content: left;
+    margin-left: 42px;
+    margin-top: 242px;
+    border-top: 12px solid lightgrey;
+    border-bottom: 4px solid lightgrey;
+}
+
+.title {
+    min-height: 160px;
+}
