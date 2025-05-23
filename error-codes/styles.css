@@ -1,6 +1,6 @@
 body {
     background-color: #1d1d1d;
-    color: lightgrey;
+    color: #33ff42;
 }
 
 h1 {
@@ -24,8 +24,8 @@ p {
     justify-content: left;
     margin-left: 42px;
     margin-top: 242px;
-    border-top: 12px solid lightgrey;
-    border-bottom: 4px solid lightgrey;
+    border-top: 12px solid #33ff42;
+    border-bottom: 4px solid #33ff42;
 }
 
 .title {
