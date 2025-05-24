@@ -1,0 +1,51 @@
+body {
+    color: grey;
+}
+
+.roboto-mono-400 {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box {
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+.main {
+  grid-area: main;
+  display: grid;
+  row-gap: 12px;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 40% 1% 13%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+  column-gap: 2%;
+  row-gap: 12px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 60%;
+}
